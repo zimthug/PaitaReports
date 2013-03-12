@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+    <ui:fragment >
+        <p:panel style="font-size: 12px;" header="Choose Report">
+            <h:link outcome="index" value="Home" />
+            <p:accordionPanel style="height: 380px;">
+                <p:tab title="Billing">
+                    <h:form>
+                        <p:menu>
+                            <p:menuitem value="Adjustments"/>
+                            <p:menuitem value="Exception Analysis"/>
+                            <p:menuitem value="Monthly Sales"/>
+                            <p:menuitem value="Supplies Not Billed"/>
+                        </p:menu>
+                    </h:form>
+                </p:tab>
+
+                <p:tab title="Collection">
+                    <h:form>
+                        <p:menu>
+                            <p:menuitem value="Collection Review"/>
+                            <p:menuitem value="Erroneous Collections"/>
+                            <p:menuitem value="Reconnection Fees"/>
+                        </p:menu>
+                    </h:form>
+                </p:tab>
+
+                <p:tab title="Credit Control">
+
+                </p:tab>
+
+                <p:tab title="Customer Care">
+
+                </p:tab>
+
+                <p:tab title="Meter Reading">
+
+                </p:tab>
+
+            </p:accordionPanel>
+        </p:panel>
+    </ui:fragment>
+</html>
