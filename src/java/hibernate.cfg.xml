@@ -4,8 +4,8 @@
   <session-factory>
     <property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>
     <property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
-    <property name="hibernate.connection.url">jdbc:oracle:thin:@172.22.1.130:1521:NWCMS1</property>
-    <property name="hibernate.connection.username">readonly</property>
-    <property name="hibernate.connection.password">readonly</property>
+    <property name="hibernate.connection.url">jdbc:oracle:thin:@ipaddress:1521:DBSID</property>
+    <property name="hibernate.connection.username">username</property>
+    <property name="hibernate.connection.password">password</property>
   </session-factory>
 </hibernate-configuration>
